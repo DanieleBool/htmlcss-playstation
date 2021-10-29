@@ -23,13 +23,9 @@
     color: rgb(0,112,209);
 }
 
-.img-cover{
-    object-fit: cover;
-    background-size: cover;
-}
-
 .jumbox{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
     background-size: cover;
 }
 

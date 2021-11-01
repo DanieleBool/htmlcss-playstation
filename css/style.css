@@ -1,14 +1,29 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box
+}
+
+html{
+overflow-x: hidden;
 }
 
 /* header */
 
+.ms-logo-1{
+    width: 110px;
+}
+
 header nav ul{
     list-style: none;
 }
+
+.ms-lens{
+    height: 20px;
+    padding: 0 5px 0 20px;
+}
+
+/* jumbo */
 
 .ms-bg-orange{
     background-color: rgb(198,59,14);
@@ -43,15 +58,15 @@ header nav ul{
     border-radius: 20px;
 }
 
-.ms-logo{
-    width: 100px;
-}
-
 .ms-now-bg{
     background-color: rgb(22,28,59);
 }
 
 /* footer */
+
+.ms-logo{
+    width: 120px;
+}
 
 .ms-logo-mondo{
     width: 20px;
@@ -74,6 +89,48 @@ footer ul li a{
 /* ------------------------- BONUS ------------------------ */
 
 /* header */
+.vw{
+    width: 85vw;
+}
+
+.dropdown-item{
+    padding: 0;
+}
+
+.dropdown-item .bg-white{
+    --bs-bg-opacity: 0;
+}
+
+.ms-on-play:hover{
+    box-shadow: 5px 5px 5px 5px grey;
+}
+
+.dropdown-toggle:hover{
+    color:blue !important;
+}
+
+.ms-link li{
+    list-style-type: disc;
+    color: blue;
+    margin-right: 35px;
+}
+
+.ms-link li::marker{
+    padding: 0;
+    margin: 0;
+}
+
+/* .dropdown-toggle1::after{
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: middle;
+    content: url(../img/chevron-down-solid.svg);
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+} */
+
 .ms-img-card:hover{
     border: 2.5px solid rgb(0,112,209);
     padding: 2px;

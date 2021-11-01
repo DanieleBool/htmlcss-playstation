@@ -4,8 +4,26 @@
     box-sizing: border-box;
 }
 
+/* header */
+
 header nav ul{
     list-style: none;
+}
+
+.ms-bg-orange{
+    background-color: rgb(198,59,14);
+}
+
+.jumbo{
+    background-image: url(../img/jumbo-bg.png);
+    background-position: top;
+    background-size: cover;
+    min-height: 65vh;
+
+}
+
+.ms-title-jumbo{
+    min-height: 60vh;
 }
 
 .ms-img-card{
@@ -13,30 +31,7 @@ header nav ul{
     border-radius: 20px;
 }
 
-.ms-img-card:hover{
-    border: 2.5px solid rgb(0,112,209);
-    padding: 2px;
-    transform: translateY(-2px);
-}
-
-.ms-bg-orange{
-    background-color: rgb(198,59,14);
-}
-
-.ms-color-blue{
-    color: rgb(0,112,209);
-}
-
-.jumbo{
-    background-image: url(../img/jumbo-bg.png);
-    background-position: top;
-    background-size: cover;
-    min-height: 60vh;
-}
-
-.ms-title-jumbo{
-    min-height: 60vh;
-}
+/* main */
 
 .jumbox{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -52,8 +47,22 @@ header nav ul{
     width: 100px;
 }
 
+.ms-now-bg{
+    background-color: rgb(22,28,59);
+}
+
+/* footer */
+
 .ms-logo-mondo{
     width: 20px;
+}
+
+.ms-footer-bg{
+    background-color: rgb(0,67,156);
+}
+
+footer ul li{
+    list-style: none;
 }
 
 footer ul li a{
@@ -61,14 +70,24 @@ footer ul li a{
     text-decoration: none;
 }
 
-footer ul li{
-    list-style: none;
+
+/* ------------------------- BONUS ------------------------ */
+
+/* header */
+.ms-img-card:hover{
+    border: 2.5px solid rgb(0,112,209);
+    padding: 2px;
+    transform: translateY(-2px);
 }
 
-.ms-now-bg{
-    background-color: rgb(22,28,59);
+/* main */
+.ms-hover-border div{
+    filter: opacity(70%);
+    border: none;
 }
 
-.ms-footer-bg{
-    background-color: rgb(0,67,156);
+.ms-hover-border div.col:hover{
+    filter: none;
+    border-bottom: 2px solid rgb(0,112,209);
+    cursor: pointer;
 }

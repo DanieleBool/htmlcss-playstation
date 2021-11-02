@@ -89,11 +89,11 @@ footer ul li a{
 /* ------------------------- BONUS ------------------------ */
 
 /* header */
-.vw{
-    width: 85vw;
+.dropdown-menu.vw-100{
+    margin-top: 0 !important;
 }
 
-.dropdown-item{
+.dropdown-item.vw-100{
     padding: 0;
 }
 
